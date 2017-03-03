@@ -100,7 +100,7 @@ input[type=date], input[type=datetime], input[type=email], input[type=number], i
 .ListItem__item:hover {
     background-color: #383838;
 }
-.ListItem__item {
+.ListItem__item, .ListItem__item.ListItem__isSubEntry {
     background-color: #323232;
     box-shadow: inset 0 -1px 0 0 rgb(70, 70, 70);
 }
@@ -221,5 +221,8 @@ input.TagsPopdown__filter {
 }
 .NavigationContainer__outerBox {
     box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.68);
+}
+.GroupedEntryCounter__subEntriesCount span {
+    border: 1px solid #757575;
 }
 }
