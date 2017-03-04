@@ -225,4 +225,25 @@ input.TagsPopdown__filter {
 .GroupedEntryCounter__subEntriesCount span {
     border: 1px solid #757575;
 }
+.ProfileMenu__content {
+    background-color: #323232;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.45);
+    border: 1px solid rgba(0, 0, 0, 0.41);
+}
+.ProfileMenu__items {
+    background-color: #323232;
+}
+.ProfileMenu__items a:focus, .ProfileMenu__items a:hover {
+    background-color: #464646;
+}
+.ProfileMenu__items a:not(.ProfileMenu__selected):focus, .ProfileMenu__items a:not(.ProfileMenu__selected):hover {
+    color: #d8d8d8;
+}
+.ProfileMenu__items a.ProfileMenu__selected {
+    background-color: rgba(75,200,0,.12);
+    color: #d8d8d8;
+}
+.TimerModeSelector__mode {
+    border-left: 1px solid #757575;
+}
 }
