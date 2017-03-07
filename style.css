@@ -246,4 +246,7 @@ input.TagsPopdown__filter {
 .TimerModeSelector__mode {
     border-left: 1px solid #757575;
 }
+.Popdown__popdownDivider {
+    background-color: #464646;
+}
 }
