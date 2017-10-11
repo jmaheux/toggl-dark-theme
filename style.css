@@ -2,6 +2,9 @@
 .TimerContainer__timerContainer {
     background: #323232;
 }
+.TimerForm__discardTimeEntry {
+    border-left: 1px solid #757575;
+}
 .DayListItem__linkButton:not([disabled]):hover {
     color: #c2aba3;
 }
@@ -13,6 +16,7 @@ body {
     color: #fff;
     border: 1px solid #7b7b7b;
 }
+.TimerForm__newTimeEntry,
 .TimeEntryForm__newTimeEntry {
     background: #383838;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.39);
@@ -73,14 +77,19 @@ input[type=date], input[type=datetime], input[type=email], input[type=number], i
     background-color: rgba(75, 200, 0, 0.28) !important;
     color: #5bf300 !important;
 }
-.Cal__Day__root.Cal__Day__enabled.Cal__Day__highlighted:before, .Cal__Day__root.Cal__Day__enabled:active:before, .Cal__Day__root.Cal__Day__enabled:hover:before {
+.Cal__Day__root.Cal__Day__enabled.Cal__Day__highlighted:before, 
+.Cal__Day__root.Cal__Day__enabled:active:before, 
+.Cal__Day__root.Cal__Day__enabled:hover:before {
     background-color: #717171;
     border: 1px solid #000!important;
 }
-.Cal__Month__row li {
+.Cal__Month__row li,
+.Cal__Month__row:first-child li,
+.Toggl .Cal__Month__row li {
     border-bottom: 1px solid #545454;
 }
-.Cal__Month__row:first-child li {
+.Cal__Month__row:first-child li,
+.Cal__Month__row li {
     background-color: #383838;
 }
 .Cal__Month__row.Cal__Month__partial:first-child li:first-child {
@@ -248,5 +257,25 @@ input.TagsPopdown__filter {
 }
 .Popdown__popdownDivider {
     background-color: #464646;
+}
+.ChartSelector__trigger {
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(250,251,252,0)),color-stop(10%,rgba(250, 251, 252, 0)),color-stop(85%,rgba(250, 251, 252, 0)),to(rgba(250,251,252,0)));
+    background-image: linear-gradient(90deg,rgba(250, 251, 252, 0) 0,rgba(250, 251, 252, 0) 10%,rgba(250, 251, 252, 0) 85%,rgba(250, 251, 252, 0));
+}
+.DayListItem__container {
+    background-color: #3a3a3a;
+    box-shadow: inset 0 -1px 0 0 #4c4c4c;
+}
+.PopdownV2__popdown {
+    background: #404040;
+}
+.boxes__floating {
+    background-color: #484848;
+    -webkit-box-shadow: 0 2px 8px 0 rgba(0,0,0,.26);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.26);
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+.TooltipPopdown__tooltip {
+    color: #cecece;
 }
 }
