@@ -1,4 +1,4 @@
-@-moz-document url("https://www.toggl.com/app/timer") {
+@-moz-document regexp("^https?://((www)\\.)?toggl\\.com/app/timer$"), domain("toggl.com") {
 .TimerContainer__timerContainer {
     background: #323232;
 }
