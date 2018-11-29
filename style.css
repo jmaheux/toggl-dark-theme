@@ -1,4 +1,4 @@
-@-moz-document url("https://www.toggl.com/app/timer") {
+@-moz-document url("https://www.toggl.com/app/timer"), url("https://toggl.com/app/timer") {
 .TimerContainer__timerContainer {
     background: #323232;
 }
@@ -16,6 +16,7 @@ body {
     color: #fff;
     border: 1px solid #7b7b7b;
 }
+.css-rwmnl,
 .TimerForm__newTimeEntry,
 .TimeEntryForm__newTimeEntry {
     background: #383838;
@@ -300,5 +301,25 @@ input[type=text].DateTimeDurationPopdown__time:focus {
     background-color: #4e4e4e;
     border-color: #5f5f5f;
 }
-
+.PopdownV2__open input {
+    color: #cecece !important;
+}
+.left-nav {
+    box-shadow: 0 2px 8px 0 rgb(0, 0, 0);
+}
+.GroupedEntryCounter__subEntriesCount span {
+    background-color: #4e4e4e;
+    color: #8d8b8d;
+    border: none;
+}
+.GroupedEntryCounter__subEntriesCount:hover span {
+    color: #a5a5a5;
+}
+.GroupedEntryCounter__isExpanded span, 
+.GroupedEntryCounter__subEntriesCount:active span, 
+pedEntryCounter__isExpanded:active span {
+    color: #e6e6e6;
+    border: 1px solid #7b7b7b;
+    background-color: #4e4e4e;
+}
 }
