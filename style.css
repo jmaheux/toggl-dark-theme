@@ -11,6 +11,13 @@
 body {
     color: #949194;
 }
+body.offline-capable-page {
+    background-color: #323232;
+}
+.snowball::-webkit-scrollbar-thumb:vertical,
+.snowball ::-webkit-scrollbar-thumb:vertical {
+    box-shadow: inset 3px 0 #323232;
+}
 .Tooltip__body {
     background-color: #4a4a4a;
     color: #fff;
@@ -320,7 +327,7 @@ input[type=text].DateTimeDurationPopdown__time:focus {
 .PopdownV2__open input {
     color: #cecece !important;
 }
-.left-nav {
+.e34dboa0 /* left-nav */ {
     box-shadow: 0 2px 8px 0 rgb(0, 0, 0);
 }
 .GroupedEntryCounter__subEntriesCount span {
@@ -338,4 +345,41 @@ pedEntryCounter__isExpanded:active span {
     border: 1px solid #7b7b7b;
     background-color: #4e4e4e;
 }
+.css-q4twds /* timer */ {
+    background-color: #323232;
+}
+/* START entries */
+.css-bzn0w0,
+.css-nxh2bt,
+.efwcymi0 {
+    background-color: #323232;
+    box-shadow: #464646 0px -1px 0px 0px inset;
+}
+.css-bzn0w0:hover,
+.css-bzn0w0:focus,
+.css-nxh2bt:hover,
+.css-nxh2bt:focus,
+.efwcymi0:hover,
+.efwcymi0:focus {
+    background-color: rgb(73, 73, 73);
+}
+.css-1qx1ltg:hover,
+.css-1qx1ltg:focus,
+.css-ai2cld:hover,
+.css-ai2cld:focus {
+    color: rgb(206, 206, 206);
+}
+/* END entries */
+/* START expand entries button */
+.css-1j1wbs9 {
+    background-color: #323232;
+    border-color: #464646;
+}
+.css-1j1wbs9:hover {
+    color: rgb(206, 206, 206);
+}
+.css-apg76u:active {
+    background-color: #323232;
+}
+/* END expand entries button */
 }
