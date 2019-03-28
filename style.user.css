@@ -1,3 +1,13 @@
+/* ==UserStyle==
+@name        Toggl Dark
+@namespace   tplk
+@version     1.0.0
+@author      tplk (https://github.com/tplk)
+@homepageURL https://github.com/tplk/toggl-dark-theme
+@supportURL  https://github.com/tplk/toggl-dark-theme/issues
+@updateURL   https://raw.githubusercontent.com/tplk/toggl-dark-theme/usercss/style.user.css
+==/UserStyle== */
+
 @-moz-document url("https://www.toggl.com/app/timer"), url("https://toggl.com/app/timer") {
 .TimerContainer__timerContainer {
     background: #323232;
