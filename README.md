@@ -1,8 +1,8 @@
 # toggl-dark-theme
 
-Dark theme for [Toggl](https://toggl.com).
-
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/tplk/toggl-dark-theme/usercss/style.user.css)
+
+Dark theme for [Toggl](https://toggl.com).
 
 ## Install
 
