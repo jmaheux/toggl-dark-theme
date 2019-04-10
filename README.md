@@ -1,6 +1,6 @@
 # toggl-dark-theme
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/tplk/toggl-dark-theme/usercss/style.user.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](style.user.css?raw=true)
 
 Dark theme for [Toggl](https://toggl.com).
 
@@ -13,4 +13,4 @@ A userstyle extension is required, common ones include:
 
 Then:
 
-📦 [Install the userCSS](https://raw.githubusercontent.com/tplk/toggl-dark-theme/usercss/style.user.css). Supports automatic updates.
+📦 [Install the userCSS](style.user.css?raw=true). Supports automatic updates.
