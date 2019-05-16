@@ -29,6 +29,8 @@
     "lint:fix": "npm run lint -- --fix"
   },
   "devDependencies": {
+    "husky": "2.3.0",
+    "lint-staged": "8.1.7",
     "prettier": "1.17.1",
     "stylelint": "10.0.1",
     "stylelint-config-prettier": "5.2.0",
