@@ -23,5 +23,17 @@
     "userstyle",
     "usercss",
     "dark"
-  ]
+  ],
+  "scripts": {
+    "lint": "stylelint **/*.css --custom-formatter=node_modules/stylelint-formatter-pretty",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "devDependencies": {
+    "prettier": "1.17.1",
+    "stylelint": "10.0.1",
+    "stylelint-config-prettier": "5.2.0",
+    "stylelint-config-standard": "18.3.0",
+    "stylelint-formatter-pretty": "1.0.3",
+    "stylelint-prettier": "1.1.0"
+  }
 }
