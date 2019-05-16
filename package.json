@@ -1,0 +1,27 @@
+{
+  "name": "toggl-dark-theme",
+  "version": "1.0.1",
+  "description": "Toggl timer dark userCSS style.",
+  "author": "jmaheux (https://github.com/jmaheux)",
+  "contributors": [
+    "Dmitry Teplov <tplk@itplk.ru> (https://itplk.ru)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tplk/toggl-dark-theme/issues"
+  },
+  "homepage": "https://github.com/tplk/toggl-dark-theme#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tplk/toggl-dark-theme.git"
+  },
+  "keywords": [
+    "theme",
+    "css",
+    "dark-theme",
+    "toggl",
+    "userstyle",
+    "usercss",
+    "dark"
+  ]
+}
