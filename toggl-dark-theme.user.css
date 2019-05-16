@@ -4,9 +4,9 @@
 @version     1.0.1
 @license     MIT
 @author      Dmitry Teplov <tplk@itplk.ru> (https://itplk.ru)
-@homepageURL https://github.com/tplk/toggl-dark-theme/tree/usercss
+@homepageURL https://github.com/tplk/toggl-dark-theme#readme
 @supportURL  https://github.com/tplk/toggl-dark-theme/issues
-@updateURL   https://raw.githubusercontent.com/tplk/toggl-dark-theme/usercss/style.user.css
+@updateURL   https://raw.githubusercontent.com/tplk/toggl-dark-theme/master/toggl-dark-theme.user.css
 ==/UserStyle== */
 
 @-moz-document url("https://www.toggl.com/app/timer"), url("https://toggl.com/app/timer") {
