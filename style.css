@@ -1,4 +1,4 @@
-@-moz-document url("https://www.toggl.com/app/timer"), url("https://toggl.com/app/timer") {
+@-moz-document url-prefix("https://www.toggl.com/app/timer") {
 .TimerContainer__timerContainer {
     background: #323232;
 }
@@ -16,7 +16,7 @@ body {
     color: #fff;
     border: 1px solid #7b7b7b;
 }
-.css-rwmnl,
+[class*="Header-block-NewTimeEntry-NewTimeEntry-breakpoint"],
 .TimerForm__newTimeEntry,
 .TimeEntryForm__newTimeEntry {
     background: #383838;
@@ -107,13 +107,39 @@ input[type=date], input[type=datetime], input[type=email], input[type=number], i
 .Cal__Day__root.Cal__Day__today>span {
     color: #cbcbcb;
 }
-.ListItem__item:hover {
+.css-1w014qc:hover,
+.ListItem__item:hover,
+[class*="Inner-innerNestedBlock-TimerItem"]:hover {
     background-color: #383838;
 }
-.ListItem__item, .ListItem__item.ListItem__isSubEntry {
+
+/* List items */
+.css-1kwutze,
+.css-1trqy87,
+.css-1hkcm8a,
+.css-r8wp6n,
+.css-1rcwj86,
+.css-1w014qc,
+[class*="Controls-DayListControls"],
+[class*="Inner-innerNestedBlock-TimerItem"],
+.ListItem__item, 
+.ListItem__item.ListItem__isSubEntry {
     background-color: #323232;
-    box-shadow: inset 0 -1px 0 0 rgb(70, 70, 70);
+    box-shadow: inset 0 -1px 0 0 rgb(76, 76, 76);
 }
+.css-1qx1ltg:hover {
+    color: #9c9c9c;
+}
+
+
+[class*="ListTitle-title"],
+[class*="TotalTimeCounter-title"],
+[class*="Item-item-TimerItem"]:hover,
+.css-lpgo4,
+.css-mpizb1 {
+    color: #737373;
+}
+
 .TagsResponsiveDisplay__tag {
     border: 1px solid #616161;
     background-color: #464646;
@@ -232,7 +258,7 @@ input.TagsPopdown__filter {
 .NavigationContainer__outerBox {
     box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.68);
 }
-.GroupedEntryCounter__subEntriesCount span {
+.GroupedEntryCounter__subCount span {
     border: 1px solid #757575;
 }
 .ProfileMenu__content {
@@ -267,9 +293,6 @@ input.TagsPopdown__filter {
     background-color: #3a3a3a;
     box-shadow: inset 0 -1px 0 0 #4c4c4c;
 }
-.PopdownV2__popdown {
-    background: #404040;
-}
 .boxes__floating {
     background-color: #484848;
     -webkit-box-shadow: 0 2px 8px 0 rgba(0,0,0,.26);
@@ -281,9 +304,6 @@ input.TagsPopdown__filter {
 }
 .text__bodyText {
     color: #bfbfbf;
-}
-input[type=text].DateTimeDurationPopdown__time {
-    border: 1px solid #323232;
 }
 input[type=text].DateTimeDurationPopdown__time:focus {
     background-color: #616161;
@@ -300,9 +320,6 @@ input[type=text].DateTimeDurationPopdown__time:focus {
 .DayListItem__select>div {
     background-color: #4e4e4e;
     border-color: #5f5f5f;
-}
-.PopdownV2__open input {
-    color: #cecece !important;
 }
 .left-nav {
     box-shadow: 0 2px 8px 0 rgb(0, 0, 0);
@@ -322,4 +339,78 @@ pedEntryCounter__isExpanded:active span {
     border: 1px solid #7b7b7b;
     background-color: #4e4e4e;
 }
+/* Top bar time entry */
+.css-1b5cew9 {
+    background-color: #323232;
+    box-shadow: rgba(0, 0, 0, 0.63) 0px 2px 6px 0px;
+}
+.css-1b5cew9 .PopdownV2__popdown {
+    background: #323232;
+}
+.css-1b5cew9 .PopdownV2__container input,
+.css-1b5cew9 input[type=text].DateTimeDurationPopdown__time {
+    background-color: rgb(41, 41, 41) !important;
+    border: 1px solid #323232;
+}
+.css-1b5cew9 .PopdownV2__open input {
+    background-color: #323232 !important;
+    color: #cecece !important;
+}
+/* END Top bar time entry */
+
+/* Time entry list */
+/* Main background */
+.css-7zzkfc,
+.right-pane-inner {
+    background-color: rgb(50, 50, 50);
+}
+/* Day name text */
+.css-15480s6 {
+    color: white;
+}
+/* Day total time text */
+.css-14nti3f {
+    color: white;
+}
+/* Day name line */
+.css-14zyegw {
+    background-color: rgb(50, 50, 50);
+}
+/* Time list line */
+.css-1kaf1i,
+.css-1hp7ntv {
+    background-color: #323232;
+    box-shadow: rgb(76, 76, 76) 0px -1px 0px 0px inset;
+}
+.css-kn7lze,
+.css-1hp7ntv {
+    background-color: #323232;
+}
+.css-bash7e {
+    box-shadow: rgb(66, 66, 66) 0px -1px 0px 0px inset;
+    background-color: #323232;
+}
+.css-vwxr6a:hover,
+.css-1hp7ntv:hover,
+.css-bash7e:hover {
+    background-color: #2d2d2d;
+}
+.css-1hp7ntv:hover, .css-1hp7ntv:focus {
+    color:#b3b3b3;
+}
+/* Time list line task desc */
+.css-1k8yi7y {
+    color: #c5c5c5 !important;
+}
+/* Line total time */
+.css-6h3exz:hover, .css-6h3exz:focus {
+    color: #c5c5c5;
+}
+/* END Time entry list */
+
+/* Left side menu */
+#navigation-menu {
+    box-shadow: 0px 0px 4px 0px black;
+}
+/* END Left side menu */
 }
